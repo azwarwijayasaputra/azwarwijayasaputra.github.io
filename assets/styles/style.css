@@ -1,0 +1,237 @@
+* {
+   box-sizing: border-box;
+   }
+
+body {
+      font-family: 'Quicksand', sans-serif;
+      margin: 0;
+      padding: 0%;
+      }
+
+#letter-spacing {
+      letter-spacing: 4px;
+      }
+
+.card {
+      box-shadow: 0 4px 8px 0 #212121;
+      border-radius: 5px;
+      padding: 20px;
+      margin: 20px;
+      }
+
+.jumbotron {
+            font-size: 18px;
+            padding: 60px;
+            background-color: #12cad6; 
+            text-align: center;
+            color:white;
+            }
+
+header {
+      display: inline;
+      }
+
+nav li {
+      display: inline;
+      list-style-type: none;
+      margin-right: 20px;  
+      }
+
+nav {
+   background-color: #0fabbc;
+   padding: 5px;  
+   position: sticky;
+   top: 0;
+}
+
+nav a {
+      font-size: 18px;
+      font-weight: 400;
+      text-decoration: none;
+      color: white; 
+      }
+nav a:hover {
+            font-weight: bold;
+            color: yellow;
+            }
+
+.image {
+      width: 100%;
+      max-height: 1650px; 
+      object-fit: cover;
+      object-position: center;
+      margin-top: 40px;
+    }
+
+.card img {
+   transition: transfrom .2s;
+   border-radius: 5px;
+}
+.card img:hover {
+   transform: scale(1.1);
+}
+
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+figure{
+   text-align: center;
+}
+
+figcaption{
+text-align: center;
+font-style: italic;
+font-weight: bold;
+font-size: 15px;
+margin-top: 20px;
+}
+
+h2 {
+   font-size: 18px;
+   color: #68b0ab;
+   margin-top: 50px;
+   }
+   
+h3 {
+   font-size: 18px;
+   color: #68b0ab;
+   }
+   
+p  {
+   text-indent : 2em;
+   font-family: sans-serif;
+   text-align: justify;
+   }
+
+#SOPKTPEL h2 {
+   text-align: center;
+   font-size: 40px;
+   margin-top: 70px;
+}
+
+#SOPKK h2 {
+   text-align: center;
+   font-size: 40px;
+   margin-top: 70px;
+}
+
+#SOPAKTAKELAHIRAN h2 {
+   text-align: center;
+   font-size: 40px;
+   margin-top: 70px;
+   }
+#SOPAKTAPERKAWINAN h2 {
+   text-align: center;
+   font-size: 40px;
+   margin-top: 70px;
+   }
+
+#SOPAKTAPERKAWINAN h2 {
+   text-align: center;
+   font-size: 40px;
+   margin-top: 70px;
+   }
+
+#SOPAKTAPERCERAIAN h2 {
+   text-align: center;
+   font-size: 40px;
+   margin-top: 70px;
+   }
+
+#SOPAKTAKEMATIAN h2 {
+   text-align: center;
+   font-size: 40px;
+   margin-top: 70px;
+   }
+
+.button_prev {
+   font-size: 15px;
+   }
+
+.button_next   {
+   font-size: 15px;
+   }
+
+aside {
+    float: right;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 #ffc7c7;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;   
+   }
+
+.profile {
+text-align: center;
+}
+
+.profile img {
+ width: 200px;
+}
+
+section table {
+              text-align: left;
+              font-size: 15px;
+              font-style: italic;
+              line-height: 30px;
+              }
+
+section table th {
+             text-align:left;
+             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+             border-radius: 1px;
+             padding: 5px;
+             margin-top: 10px;
+            }
+
+section table td {
+    text-align:left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 1px;
+    padding: 5px;
+    margin-top: 10px;
+   }
+
+table {
+   text-align:center;
+   font-family: "Tahoma"
+   color : black;
+   font-size: 24px;
+   margin: auto;
+   }
+
+th {
+    text-align:left;
+   }
+
+td {
+    text-align:left;    
+   }
+
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #00a2c6;
+   text-align: center;
+   font-weight: bold;
+   }
+
+.content {
+   float: left;
+   width: 70%;
+   }
+
+html{
+   scroll-behavior: smooth;
+   }
+
+
+@media screen and (max-width: 1000px) {
+   .content,
+   aside {
+       width: 100%;
+       padding: 0;    
+   }
+}
